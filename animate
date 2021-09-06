@@ -1,0 +1,11 @@
+from time import sleep
+import sys
+
+def animate(text):
+  for i in text:
+    print(letter, end='')
+    sys.stdout.flush()
+    sleep(0.05)
+    
+   
+animate("This is a test.")
